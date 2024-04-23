@@ -56,8 +56,8 @@ const FirstRow = () => {
           </div>
         </form>
         <div className="flex justify-center gap-4">
-            <img className="rounded-lg w-1/2" src="/cycling-1.jpg" alt="" />
-            <img className="rounded-lg w-1/2" src="/cycling-1.jpg" alt="" />
+            <img className="rounded-lg w-1/2" src="/cycling-2.jpg" alt="" />
+            <img className="rounded-lg w-1/2" src="/cycling-4.webp" alt="" />
         </div>
       </div>
       {/* rightside */}
@@ -65,11 +65,11 @@ const FirstRow = () => {
         <div className="grid grid-cols-2 gap-4 mb-2 ">
             {/* left in left */}
             <div>
-                <img className="h-[530px] rounded-xl" src="/cycling-h.jpg" alt="" />
+                <img className="h-[530px] rounded-xl" src="/cycling-3.jpg" alt="" />
             </div>
             {/* right in left */}
             <div className="gap-y-2 flex flex-col">
-                <img src="/cycling-1.jpg" className="w-full rounded-md" alt="" />
+                <img src="/cycling-5.jpg" className="w-full rounded-md" alt="" />
                 <span className="font-semibold text-md">
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                 </span> 

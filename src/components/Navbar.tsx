@@ -12,13 +12,13 @@ const Navbar = () => {
                     <div className="flex items-center gap-20">
                         <div className=" gap-10 hidden md:flex">
                             <Link to={"/"}>
-                                <AiOutlineMenu className="text-2xl" />
+                                <AiOutlineMenu className="text-2xl hover:text-red-600" />
                             </Link>
                             <Link to={"/"}>
-                               <span className="font-bold">Home</span> 
+                               <span className="font-bold hover:text-red-600">Home</span> 
                             </Link>
                             <Link to={"/"}>
-                                shop
+                                <span className="hover:text-red-600">shop</span>
                             </Link>
                         </div>
                     </div>
@@ -28,21 +28,21 @@ const Navbar = () => {
                                 <CgRing className="text-2xl "/>
                             </Link>
                             <Link to={"/"}>
-                                <span className="text-2xl font-bold">CYCLE</span>
+                                <span className="text-2xl font-bold hover:text-red-600">CYCLE</span>
                             </Link>
                         </div>
                     </div>
                     <div className="flex items-center text-2xl gap-4 ">
                         <div className="text-sm flex gap-10 items-center z-20">
                             <Link to={"/"}>
-                                <IoIosNotificationsOutline className="text-2xl"/>
+                                <IoIosNotificationsOutline className="text-2xl hover:text-red-600"/>
                             </Link>
                             <div className="relative">
                                 <div className="absolute  bottom-2 left-3 ">
-                                    <span className="bg-red-600 text-white px-1 text-sm rounded-full ">7</span>
+                                    <span className="bg-red-600 text-white px-1 text-sm rounded-full">7</span>
                                 </div>
                             <Link to={"/"}>
-                                <AiOutlineShoppingCart className="text-2xl"/>
+                                <AiOutlineShoppingCart className="text-2xl hover:text-red-600"/>
                             </Link>
                             </div>
                             <div className="h-8 w-8 rounded-full overflow-hidden ">
