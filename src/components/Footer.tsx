@@ -12,27 +12,27 @@ const Footer = () => {
         <div className="w-full md:w-1/4 px-4 mb-8 md:mb-0">
           <ul className="list-none">
             <span className="font-bold">Home</span>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Businesses
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Suppliers
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Usecases
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 FAQ
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 About us
               </a>
@@ -42,22 +42,22 @@ const Footer = () => {
         <div className="w-full md:w-1/4 px-4">
           <span className="font-bold">Support</span>
           <ul className="list-none">
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Acoount
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Supper center
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Feedback
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Contact us
               </a>
@@ -67,27 +67,27 @@ const Footer = () => {
         <div className="w-full md:w-1/4 px-4">
           <span className="font-bold">Contact</span>
           <ul className="list-none">
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Careers
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Terms of service
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Privacy policy
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 Cookies policy
               </a>
             </li>
-            <li>
+            <li className="py-2">
               <a href="" className="text-dark text-decoration-none">
                 @ 2024 safeer all rights reserved
               </a>
@@ -96,7 +96,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/4 px-4">
           <span className="font-bold">Tranch you later, innovator.</span>
-          <form className="flex items-center">
+          <form className="flex items-center py-4">
             <div className="">
               <input
                 type="email"
@@ -109,9 +109,9 @@ const Footer = () => {
               Subscribe
             </div>
           </form>
-          <div className="flex text-3xl gap-4 mt-2">
+          <div className="flex text-3xl gap-4 mt-2 py-4">
             <FaFacebook />
-            <FaTwitter />
+            <FaTwitter  />
             <FaInstagram />
             <FaLinkedin />
           </div>

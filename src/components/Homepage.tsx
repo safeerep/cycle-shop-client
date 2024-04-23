@@ -1,9 +1,9 @@
 import {
     FirstRow,
     SecondRow,
-    // ThirdRow,
-    // Fourthrow,
-    // FifthRow,
+    ThirdRow,
+    Fourthrow,
+    FifthRow,
 } from "./index"
 
 const Homepage = () => {
@@ -11,9 +11,9 @@ const Homepage = () => {
     <>
     <FirstRow />
     <SecondRow />
-    {/* <ThirdRow />
+    <ThirdRow />
     <Fourthrow />
-    <FifthRow /> */}
+    <FifthRow />
     </>
   )
 }
