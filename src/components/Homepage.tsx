@@ -1,19 +1,19 @@
 import {
     FirstRow,
-    SecondRow,
-    ThirdRow,
-    Fourthrow,
-    FifthRow,
+    // SecondRow,
+    // ThirdRow,
+    // Fourthrow,
+    // FifthRow,
 } from "./index"
 
 const Homepage = () => {
   return (
     <>
     <FirstRow />
-    <SecondRow />
+    {/* <SecondRow />
     <ThirdRow />
     <Fourthrow />
-    <FifthRow />
+    <FifthRow /> */}
     </>
   )
 }
