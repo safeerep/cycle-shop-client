@@ -1,6 +1,6 @@
 import {
     FirstRow,
-    // SecondRow,
+    SecondRow,
     // ThirdRow,
     // Fourthrow,
     // FifthRow,
@@ -10,8 +10,8 @@ const Homepage = () => {
   return (
     <>
     <FirstRow />
-    {/* <SecondRow />
-    <ThirdRow />
+    <SecondRow />
+    {/* <ThirdRow />
     <Fourthrow />
     <FifthRow /> */}
     </>

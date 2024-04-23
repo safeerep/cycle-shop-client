@@ -6,10 +6,9 @@ import { CgRing } from "react-icons/cg"
 
 const Navbar = () => {
     return (
-        <header className={`mx-auto sticky top-0 left-0 z-10 h-20 w-full overflow-hidden flex flex-col items-center justify-center border-b`}>
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <header className={`mx-auto sticky top-0 left-0 z-40 h-20 w-full overflow-hidden flex flex-col items-center justify-center border-b`}>
             <header className={`h-20 flex items-center justify-center  w-[90%] md:w-[85%] mx-auto`}>
-                <div className="h-[90%] bg-transparent w-full  flex justify-between">
+                <div className="h-[90%] w-full  flex justify-between">
                     <div className="flex items-center gap-20">
                         <div className=" gap-10 hidden md:flex">
                             <Link to={"/"}>
