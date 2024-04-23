@@ -3,7 +3,7 @@ import {
     SecondRow,
     ThirdRow,
     Fourthrow,
-    // FifthRow,
+    FifthRow,
 } from "./index"
 
 const Homepage = () => {
@@ -13,7 +13,7 @@ const Homepage = () => {
     <SecondRow />
     <ThirdRow />
     <Fourthrow />
-    {/* <FifthRow /> */}
+    <FifthRow />
     </>
   )
 }
