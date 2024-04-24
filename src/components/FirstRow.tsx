@@ -82,6 +82,28 @@ const FirstRow = () => {
                 <span className="text-2xl font-semibold">
                    Our cusotmer rating
                 </span>
+                {/* start */}
+                <div className="h-1 dark:bg-white bg-black relative">
+                  <div className="absolute top-[-5px] right-1/2 h-4 w-4 dark:bg-white bg-black rounded-full "></div>
+                </div>
+                <div className="flex">
+                  <div className="w-16 h-16 rounded-full bg-blue-500 overflow-hidden">
+                    <img className="object-cover" src="/profile.jpg" alt="" />
+                  </div>
+                  <div className="w-16 h-16 rounded-full bg-red-500 ml-[-12px] overflow-hidden">
+                  <img className="object-cover" src="/profile.jpg" alt="" />
+                  </div>
+                  <div className="w-16 h-16 rounded-full bg-green-500 ml-[-12px] overflow-hidden">
+                  <img className="object-cover" src="/profile.jpg" alt="" />
+                  </div>
+                  <div className="w-16 h-16 rounded-full bg-yellow-500 ml-[-12px] overflow-hidden">
+                  <img className="object-cover" src="/profile.jpg" alt="" />
+                  </div>
+                  <div className="w-16 h-16 rounded-full bg-violet-500 ml-[-12px] overflow-hidden">
+                  <img className="object-cover" src="/profile.jpg" alt="" />
+                  </div>
+                </div>
+                {/* end */}
                 <span className="font-semibold text-md">
                 Lorem Ipsum has been the industry's std
                 </span> 
